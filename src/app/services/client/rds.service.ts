@@ -16,7 +16,7 @@ export class RDSService {
         let headers = new Headers({});
         let options = new RequestOptions({ headers: headers });
 
-        return this.http.get('https://randomuser.me/api/?key=E7LB-PONO-RLAC-M9DD&ref=eigsm5dx&results=100&inc=name,location,nat,dob')
+        return this.http.get('https://randomuser.me/api/?key=E7LB-PONO-RLAC-M9DD&ref=eigsm5dx&results=10&inc=name,location,nat,dob')
             .map((res: Response) => res.json())
             .catch((error: any) => {
                 return Observable.throw(error);
