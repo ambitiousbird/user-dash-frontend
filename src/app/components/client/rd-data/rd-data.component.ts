@@ -214,7 +214,7 @@ export class RDDataComponent implements OnInit {
     if(vf == 1) {
       this.rdsService.getChosenDatasLen().subscribe(data => {
         console.log('data len : ' + JSON.stringify(data));
-        if((data.data ) < 10) {
+        if((data.data/10 ) < 100) {
           this.rdsService.postChosenData(this.necessary_data).subscribe(data => {
             alert("Data saved successfully");
             this.previous_data = this.necessary_data;
