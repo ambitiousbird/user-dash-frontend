@@ -1,0 +1,47 @@
+.dropdown li a{
+    cursor: pointer;
+}
+.brief_introduce{
+    font-size: 24px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.fbitems {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.row.display-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.row.display-flex > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
+
+.beginner-btn-box {
+    padding: 23px 0;
+}
+
+.beginner-guide-btn {
+    color: #fff;
+    min-width: 300px;
+    padding: 15px 10px;
+}
+
+.back-orange {
+    background-color: #f26522 !important;
+}
+
+
+@media screen and (max-width: 768px) {
+    .beginner-guide-btn {
+        min-width: 250px;
+    }
+}
+
+#main{
+    min-height: 80%;
+}
