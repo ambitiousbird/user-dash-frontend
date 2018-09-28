@@ -5,5 +5,5 @@
 
 export const environment = {
   production: false,
-  base_url: 'http://dev2.sharemeshi.com'
+  base_url: 'https://user-dash.firebaseapp.com'
 };

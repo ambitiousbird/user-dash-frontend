@@ -1,4 +1,4 @@
 export const environment = {
   production: false,
-  base_url: 'https://stage2-backend.sharemeshi.com',
+  base_url: 'https://user-dash-backend.herokuapp.com/',
 };
