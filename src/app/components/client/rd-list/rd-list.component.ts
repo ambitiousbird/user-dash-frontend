@@ -1,6 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute , Router } from '@angular/router';
 import { NotificationService } from '../../../services/notification.service';
+import { cl_configs } from '../../../config/cl-config';
+
+import { environment } from '../../../../environments/environment';
 
 import { RDSService } from '../../../services/client/rds.service';
 

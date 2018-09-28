@@ -1,7 +1,9 @@
 import { Component, OnInit, NgZone, ViewChild, ElementRef, TemplateRef } from '@angular/core';
 
+
 import { Router } from '@angular/router';
 import { NotificationService } from '../../../services/notification.service';
+import { cl_configs } from '../../../config/cl-config';
 
 import { RDSService } from '../../../services/client/rds.service';
 
@@ -17,6 +19,8 @@ declare var $: any;
   styleUrls: ['./rd-data.component.css']
 })
 export class RDDataComponent implements OnInit {
+
+  loadTemplate: string = cl_configs.loadgif;
 
   public latest_data: any = [];
   public necessary_data: any = [];
@@ -218,7 +222,7 @@ export class RDDataComponent implements OnInit {
             console.log(err);
           })
         } else {
-          alert("Limit reached");
+          alert("Item limit reached");
         }
       }, err => {
         console.log(err);

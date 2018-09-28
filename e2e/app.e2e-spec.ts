@@ -1,6 +1,6 @@
 import { AppPage } from './app.po';
 
-describe('share-meshi App', () => {
+describe('user-dash App', () => {
   let page: AppPage;
 
   beforeEach(() => {

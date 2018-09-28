@@ -1,6 +1,12 @@
+#main{
+    min-height: 80%;
+}
+
 .dropdown li a{
     cursor: pointer;
 }
+
+
 .brief_introduce{
     font-size: 24px;
     text-align: center;
@@ -40,8 +46,4 @@
     .beginner-guide-btn {
         min-width: 250px;
     }
-}
-
-#main{
-    min-height: 80%;
 }
